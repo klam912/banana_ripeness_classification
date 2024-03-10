@@ -6,17 +6,11 @@ Funny story, I have been living my life without realizing that I am color defici
 As a data science major, I'm interested in using this goal to combine with my data science skills to create a deep learning model that could classify whether or not a banana is ripe or not. 
 
 ## Tools
-• Image processing:
-
-    • cv2, imghdr
+• Image processing: cv2, imghdr
   
-• Deep learning framework:
+• Deep learning framework: Tensorflow, Keras
 
-    • Tensorflow, Keras
-
-• Image visualization:
-
-    • Matplotlib
+• Image visualization: Matplotlib
   
 
 ## Result
