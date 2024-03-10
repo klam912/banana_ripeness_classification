@@ -8,15 +8,15 @@ As a data science major, I'm interested in using this goal to combine with my da
 ## Tools
 • Image processing:
 
-  • cv2, imghdr
+    • cv2, imghdr
   
 • Deep learning framework:
 
-  • Tensorflow, Keras
+    • Tensorflow, Keras
 
 • Image visualization:
 
-  • Matplotlib
+    • Matplotlib
   
 
 ## Result
