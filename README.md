@@ -14,10 +14,12 @@ As a data science major, I'm interested in using this goal to combine with my da
   
 
 ## Result
-TBD!
+• Created a CNN model that has a 95% accuracy of predicting a banana's ripeness
+• Visualized the loss and accuracy of the model and determined that it is not overfitting
 
 ## Limitation
-TBD!
+• Because this model has a 95% accuracy level, there's definitely room for improvement in optimizing
+the accuracy level and loss level to reach the 100% accuracy and 0% loss level
 
 ## Citation
 • All of the images used in training this model are taken from Google Images
