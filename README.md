@@ -10,6 +10,8 @@ As a data science major, I'm interested in using this goal to combine with my da
   
 • Deep learning framework: Tensorflow, Keras
 
+• Machine learning tools: Scikit-learn
+
 • Image visualization: Matplotlib
   
 
