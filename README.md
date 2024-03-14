@@ -14,19 +14,23 @@ As a data science major, I'm interested in using this goal to combine with my da
   
 
 ## Result
-• Created a 2D Convolutional Neural Network model using Tensorflow's Keras API to predict a banana's ripeness
+• Utilized TensorFlow's Keras API to architect a robust 2D Convolutional Neural Network, tailor-made for high-precision ripeness prediction.
 
-• Visualized the training and validation loss and accuracy of the model using Matplotlib
+• Employed Matplotlib to dynamically visualize the model's training and validation processes, focusing on loss and accuracy metrics, which provided critical insights into model behavior over time.
 
-• Implemented Early Stopping Callback to stop training the model when the validation loss increases
+• Integrated an Early Stopping Callback mechanism, a strategic move to halt the training phase upon detecting an increase in validation loss, thus preventing overfitting and enhancing model reliability.
 
-• Used Scikit-learn's 5-fold cross-validation to test the model's performance, which resulted in 95.37% accuracy and 23% loss
+• Applied Scikit-learn's 5-fold cross-validation technique, a testament to the model's robustness, yielding an impressive accuracy of 95.37% and a loss of 23%, showcasing the model's effectiveness in real-world scenarios.
 
-• Hypertuned the model using a GridSearchCV to find the most optimal L2 regularization rate, learning rate, and dropout rate
+• Conducted extensive hyperparameter optimization using GridSearchCV, focusing on fine-tuning the L2 regularization rate, learning rate, and dropout rate to discover the most effective configuration for optimal performance.
 
-• Experimented with models with different architecture (from least to most complex) and number of epochs to find the most optimal architecture
+• Embarked on a comprehensive exploration of various model architectures, ranging in complexity, alongside different numbers of epochs to identify the most efficient model structure for our specific task.
 
-• Compiled the CNN model with the Adam compiler
+• Compiled the CNN model using the Adam optimizer, a decision aimed at leveraging its adaptive learning rate capabilities to further enhance model performance.
+
+• Evaluated the model's effectiveness using a suite of key metrics, including accuracy, precision, and recall, ensuring a well-rounded assessment of its predictive capabilities.
+
+• Leveraged OpenCV to meticulously download and preprocess over 3,000 images sourced from Google Images, a crucial step in creating a diverse and representative dataset for training and testing our model.
 
 ## Limitation
 • Because this model has a 95% accuracy level, there's definitely room for improvement in optimizing
