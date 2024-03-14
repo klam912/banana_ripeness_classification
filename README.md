@@ -10,12 +10,29 @@ As a data science major, I'm interested in using this goal to combine with my da
   
 • Deep learning framework: Tensorflow, Keras
 
+• Machine learning tools: Scikit-learn
+
 • Image visualization: Matplotlib
   
 
 ## Result
-• Created a CNN model that has a 95% accuracy of predicting a banana's ripeness
-• Visualized the loss and accuracy of the model and determined that it is not overfitting
+• Utilized TensorFlow's Keras API to architect a robust 2D Convolutional Neural Network, tailor-made for high-precision ripeness prediction.
+
+• Employed Matplotlib to dynamically visualize the model's training and validation processes, focusing on loss and accuracy metrics, which provided critical insights into model behavior over time.
+
+• Integrated an Early Stopping Callback mechanism, a strategic move to halt the training phase upon detecting an increase in validation loss, thus preventing overfitting and enhancing model reliability.
+
+• Applied Scikit-learn's 5-fold cross-validation technique, a testament to the model's robustness, yielding an impressive accuracy of 95.37% and a loss of 23%, showcasing the model's effectiveness in real-world scenarios.
+
+• Conducted extensive hyperparameter optimization using GridSearchCV, focusing on fine-tuning the L2 regularization rate, learning rate, and dropout rate to discover the most effective configuration for optimal performance.
+
+• Embarked on a comprehensive exploration of various model architectures, ranging in complexity, alongside different numbers of epochs to identify the most efficient model structure for our specific task.
+
+• Compiled the CNN model using the Adam optimizer, a decision aimed at leveraging its adaptive learning rate capabilities to further enhance model performance.
+
+• Evaluated the model's effectiveness using a suite of key metrics, including accuracy, precision, and recall, ensuring a well-rounded assessment of its predictive capabilities.
+
+• Leveraged OpenCV to meticulously download and preprocess over 3,000 images sourced from Google Images, a crucial step in creating a diverse and representative dataset for training and testing our model.
 
 ## Limitation
 • Because this model has a 95% accuracy level, there's definitely room for improvement in optimizing
