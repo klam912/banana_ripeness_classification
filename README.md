@@ -14,8 +14,19 @@ As a data science major, I'm interested in using this goal to combine with my da
   
 
 ## Result
-• Created a CNN model that has a 95% accuracy of predicting a banana's ripeness
-• Visualized the loss and accuracy of the model and determined that it is not overfitting
+• Created a 2D Convolutional Neural Network model using Tensorflow's Keras API to predict a banana's ripeness
+
+• Visualized the training and validation loss and accuracy of the model using Matplotlib
+
+• Implemented Early Stopping Callback to stop training the model when the validation loss increases
+
+• Used Scikit-learn's 5-fold cross-validation to test the model's performance, which resulted in 95.37% accuracy and 23% loss
+
+• Hypertuned the model using a GridSearchCV to find the most optimal L2 regularization rate, learning rate, and dropout rate
+
+• Experimented with models with different architecture (from least to most complex) and number of epochs to find the most optimal architecture
+
+• Compiled the CNN model with the Adam compiler
 
 ## Limitation
 • Because this model has a 95% accuracy level, there's definitely room for improvement in optimizing
